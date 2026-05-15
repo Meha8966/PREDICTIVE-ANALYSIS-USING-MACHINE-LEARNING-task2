@@ -15,3 +15,22 @@ The objective of this task is to build a machine learning model for predictive a
 <img width="991" height="331" alt="Image" src="https://github.com/user-attachments/assets/6b6d6431-2a6e-414a-8458-995dec546145" />
 <img width="955" height="531" alt="Image" src="https://github.com/user-attachments/assets/85e3d8c8-eab0-4fb7-a6e6-0190588e621e" />
 <img width="807" height="502" alt="Image" src="https://github.com/user-attachments/assets/3013a37e-88fd-4bd4-bb03-4c3207520660" />
+
+#OBERVATION
+
+
+1. The sales dataset was successfully loaded and processed using PySpark.
+
+2. Relevant features such as Quantity Ordered and Price Each were selected for predictive analysis.
+
+3. Feature engineering was performed using VectorAssembler to combine input features into a single vector.
+
+4. The dataset was divided into training and testing datasets for machine learning model development.
+
+5. A Linear Regression model was successfully trained using PySpark MLlib.
+
+6. The trained model generated predictions for sales values based on the selected features.
+
+7. Model performance was evaluated using RMSE, and the obtained RMSE value was approximately 1011.86.
+
+8. The task demonstrated the implementation of machine learning techniques for predictive analytics on large datasets using PySpark.
